@@ -1,0 +1,37 @@
+ul {
+    font-family: 'Playfair Display', serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #72b05e;
+    font-size: larger;
+}
+
+.name {
+    margin-right: 15px;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: #72b05e;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
