@@ -1,0 +1,26 @@
+.body {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: #1c4139;
+}
+
+.home {
+    margin-top: 0;
+}
+
+.best-sellers {
+    margin: 50px 0 0 32px;
+}
+
+a {
+    text-decoration: none;
+    color: #edc1b6;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 10px;
+}

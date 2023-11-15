@@ -1,11 +1,37 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1c4139;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 ul {
     font-family: 'Playfair Display', serif;
     list-style-type: none;
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     overflow: hidden;
-    background-color: #72b05e;
+    background-color: #1c4139;
     font-size: larger;
+    z-index: 101;
 }
 
 .name {
@@ -17,12 +43,12 @@ li {
 }
 
 li a:hover:not(.active) {
-    background-color: #72b05e;
+    background-color: #edc1b6;
 }
 
 li a {
     display: block;
-    color: #000000;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,4 +60,9 @@ li a {
     padding: 0;
     overflow: hidden;
     color: white;
+}
+
+.cart-logo {
+    text-align: center;
+    padding-bottom: 5px;
 }
