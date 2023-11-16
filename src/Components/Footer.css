@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid #edc1b6;
+    padding-top: 10px;
+    background-color: #1c4139;
+}
+
+.footer h4 {
+    color: white;
+    margin: 10px 0 0 15px;
+    font-style: italic;
+}
+
+.footer footer {
+    background-color: #edc1b6;
+}
