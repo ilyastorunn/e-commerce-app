@@ -11,11 +11,6 @@ export default function Header() {
                 <li><a href="/">Home</a></li>
                 <li className="dropdown">
                     <Link to="/shop" className="dropbtn">Shop</Link>
-                    <div className="dropdown-content">
-                        <a href="/">Men</a>
-                        <a href="/">Woman</a>
-                        <a href="/">Kids</a>
-                    </div>
                 </li>
                 <li className="active"><a href="/">About</a></li>
                 <li className="active"><Link to="/signin">Sign In</Link></li>
