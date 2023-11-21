@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 
@@ -9,7 +10,7 @@ export default function Header() {
                 <li><a href="/" className="name">FashionHub</a></li>
                 <li><a href="/">Home</a></li>
                 <li className="dropdown">
-                    <a href="/" className="dropbtn">Shop</a>
+                    <Link to="/shop" className="dropbtn">Shop</Link>
                     <div className="dropdown-content">
                         <a href="/">Men</a>
                         <a href="/">Woman</a>
@@ -17,7 +18,7 @@ export default function Header() {
                     </div>
                 </li>
                 <li className="active"><a href="/">About</a></li>
-                <li className="active"><a href="/">Sign In</a></li>
+                <li className="active"><Link to="/signin">Sign In</Link></li>
                 <li className="active"><a href="/">
                     <svg
                         className="cart-logo"

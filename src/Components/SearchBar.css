@@ -1,0 +1,19 @@
+.search-bar {
+    font-family: 'Playfair Display', serif;
+    padding: 0 10px 0 10px;
+    overflow: hidden;
+}
+
+input::placeholder {
+    color: #1c4139 !important;
+    box-shadow: none;
+}
+
+button {
+    border: 2px solid #edc1b6 !important;
+    color: #1c4139 !important;
+}
+
+button:hover {
+    background-color: #edc1b6 !important;
+}

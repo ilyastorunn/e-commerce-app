@@ -1,0 +1,25 @@
+form {
+    font-family: 'Playfair Display', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.submit-button {
+    color: white;
+    background-color: #1c4139;
+}
+
+.form-control {
+    border-color: #edc1b6 !important;
+    border: 2px solid;
+}
+
+.form-control:focus,
+.fom-check-input:focus {
+    border-color: #edc1b6 !important;
+}
+
+input:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}

@@ -1,0 +1,31 @@
+.container {
+    /* background-color: #1c4139; */
+}
+
+.filterButtons {
+    font-family: 'Playfair Display', serif;
+    padding: 30px 10px 0 10px;
+}
+
+.dropdown {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.dropdown-links {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    font-family: 'Playfair Display', serif;   
+}
+
+a {
+    font-family: 'Playfair Display', serif;
+    color: #1c4139;
+}
