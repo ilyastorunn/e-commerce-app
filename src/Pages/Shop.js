@@ -36,7 +36,7 @@ const Shop = () => {
           </li>
         </ul>
       </div>
-      <div className="row mt-3">
+      <div className="products row mt-3">
         {bestSellersData.map((item) => (
           <div key={item.id} className="col-md-6 mb-4">
             <a href="/" className="bestSellersPics">

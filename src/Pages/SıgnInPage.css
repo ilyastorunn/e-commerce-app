@@ -1,13 +1,28 @@
+.signInPage {
+    padding-top: 20px;
+}
+
 form {
     font-family: 'Playfair Display', serif;
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+button {
+    text-align: center;
 }
 
 .submit-button {
-    color: white;
+    color: white !important;
     background-color: #1c4139;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-control {
@@ -20,6 +35,43 @@ form {
     border-color: #edc1b6 !important;
 }
 
+.form-check-input:checked {
+    border-color: #edc1b6 !important;
+    background-color: #edc1b6 !important;
+}
+
+.form-check {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.google {
+    padding: 5px 10px;
+}
+
+.googleButton {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
 input:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.signUp {
+    margin-top: 30px;
+}
+
+.signUpButton {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.signUpLink {
+    color: #1c4139 !important;
 }

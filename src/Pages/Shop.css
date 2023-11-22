@@ -1,7 +1,3 @@
-.container {
-    /* background-color: #1c4139; */
-}
-
 .filterButtons {
     font-family: 'Playfair Display', serif;
     padding: 30px 10px 0 10px;
@@ -27,5 +23,11 @@
 
 a {
     font-family: 'Playfair Display', serif;
-    color: #1c4139;
+    color: white;
+}
+
+.products {
+    padding: 15px 0 0 15px;
+    background-color: #1c4139;
+    margin-bottom: 15px;
 }
