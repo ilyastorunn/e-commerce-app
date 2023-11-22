@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "./Shop.css";
 import SearchBar from "../Components/SearchBar";
 import bestSellersData from "../images";
+import { Link } from "react-router-dom";
 
 const Shop = () => {
   return (
@@ -39,10 +40,10 @@ const Shop = () => {
       <div className="products row mt-3">
         {bestSellersData.map((item) => (
           <div key={item.id} className="col-md-6 mb-4">
-            <a href="/" className="bestSellersPics">
+            <Link to={`/product/${item.id}`} className="bestSellersPics">
               <img src={item.image} className="img-fluid" alt={item.title} />
               <p>{item.title}</p>
-            </a>
+            </Link>
           </div>
         ))}
       </div>

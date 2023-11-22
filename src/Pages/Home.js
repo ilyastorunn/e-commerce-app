@@ -5,6 +5,8 @@ import homePic from "../pictures/home-pic.jpeg";
 import bestSellersData from "../images";
 
 export default function Home() {
+    const topBestSellers = bestSellersData.slice(0, 5);
+
     return (
     <div className="body">
         <div className="home container-fluid img-container">
@@ -16,7 +18,7 @@ export default function Home() {
             <div class="container">
             <h3>Best Sellers</h3>
                 <div class="row">
-                    {bestSellersData.map((item) => (
+                    {topBestSellers.map((item) => (
                         <div key={item.id} className="col-md-6 mb-4">
                             <a href="#" className="bestSellersPics">
                                 <img src={item.image} className="img-fluid" alt={item.title} />

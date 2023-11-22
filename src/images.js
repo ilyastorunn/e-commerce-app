@@ -22,91 +22,127 @@ const bestSellersData = [
         id: 1,
         image: bestSeller1,
         title: "EMBROIDERED AND FAUX WOOL JACKET",
+        price: "2790₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 2,
         image: bestSeller2,
         title: "WOOL BLEND COAT",
+        price: "3190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 3,
         image: bestSeller3,
         title: "BOXY FIT PUFFLE JACKET",
+        price: "1990₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 4,
         image: bestSeller4,
         title: "CONTRAST PRINTED SWEATSHIRT",
+        price: "1190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 5,
         image: bestSeller5,
         title: "SPRAY PATTERNED SWEATER",
+        price: "1190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 6,
         image: bestSeller6,
         title: "CONTRAST JACQUARD SWEATER",
+        price: "1190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 7,
         image: bestSeller7,
         title: "ZIPPERED JEANS",
+        price: "1790₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 8,
         image: bestSeller8,
         title: "WOOL CARDIGAN",
+        price: "1790₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 9,
         image: shopImageWoman1,
         title: "SOFT TEXTURED OVERSIZE COAT",
+        price: "2190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 10,
         image: shopImageWoman2,
         title: "HOODED INFLATABLE ANORAK WITH WIND PROTECTION",
+        price: "2190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 11,
         image: shopImageWoman3,
         title: "METALLIC BLOCK HEEL BOOTS",
+        price: "1190₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 12,
         image: shopImageWoman4,
         title: "TRF MID-RISE SHINY STONE JEANS",
+        price: "1790₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 13,
         image: shopImageWoman5,
         title: "HIGH WAIST Faux Leather Leggings",
+        price: "790₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 14,
         image: shopImageWoman6,
         title: "BUCLET MIDI DRESS",
+        price: "890₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 15,
         image: shopImageWoman7,
         title: "DOUBLE-BREASTED OVERSIZE BLAZER",
+        price: "1390₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 16,
         image: shopImageWoman8,
         title: "COTTON AND MODAL CROP T-SHIRT",
+        price: "350₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 17,
         image: shopImageWoman9,
         title: "Faux FUR HOODED JACKET",
+        price: "1390₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
     {
         id: 18,
         image: shopImageWoman10,
         title: "STRAIGHT HIGH-WAIST CROPPED BEADED JEANS",
+        price: "990₺",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     },
 ];
 
