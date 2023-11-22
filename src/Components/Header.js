@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div>
             <ul>
-                <li><a href="/" className="name">FashionHub</a></li>
+                <li><a href="https://github.com/ilyastorunn" target="_blank" className="name">FashionHub</a></li>
                 <li><a href="/">Home</a></li>
                 <li className="dropdown">
                     <Link to="/shop" className="dropbtn">Shop</Link>
