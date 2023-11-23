@@ -3,6 +3,14 @@
     padding: 30px 10px 0 10px;
 }
 
+.filterButtons .btn {
+    width: 120px;
+}
+
+.filterButtons .btn.active {
+    background-color: #edc1b6;
+}
+
 .dropdown {
     display: flex !important;
     align-items: center !important;
@@ -19,6 +27,11 @@
 
 .btn{
     font-family: 'Playfair Display', serif;   
+}
+
+.allButton {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 a {
