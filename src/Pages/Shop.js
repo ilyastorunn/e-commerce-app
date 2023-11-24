@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import "./Shop.css";
 import SearchBar from "../Components/SearchBar";
 import bestSellersData from "../images";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Shop = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [searchTerm, setSearchTerm] = useState("");
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const filterProducts = (category) => {
     console.log('Filtering with category:', category);
@@ -39,29 +41,45 @@ const Shop = () => {
 
   const filteredProducts = filterProducts(selectedCategory);
 
+  useEffect(() => {
+    const searchParams = new URLSearchParams(location.search);
+    const categoryParam = searchParams.get("category");
+
+    if (categoryParam) {
+      handleCategoryChange(categoryParam);
+    }
+  }, [location.search]);
+
   return (
     <div className="container mt-4">
       <SearchBar onSearch={handleSearch} />
       <div className="filterButtons d-flex justify-content-center gap-2 mt-3">
         <div className="btn-group">
-          <button
-            className={`btn btn-outline-secondary ${selectedCategory === 'men' ? 'active' : ''}`}
-            onClick={() => handleCategoryChange('men')}
-          >
-              Men
-          </button>
-          <button
-            className={`btn btn-outline-secondary ${selectedCategory === 'woman' ? 'active' : ''}`}
-            onClick={() => handleCategoryChange('woman')}
-          >
-            Woman
-          </button>
-          <button
-            className={`btn btn-outline-secondary allButton ${selectedCategory === 'all' ? 'active' : ''}`}
-            onClick={() => handleCategoryChange('all')}
-          >
-            All
-          </button>
+            <Link to="/shop?category=men">
+              <button
+                className={`btn btn-outline-secondary ${selectedCategory === 'men' ? 'active' : ''}`}
+                onClick={() => handleCategoryChange('men')}
+              >
+                Men
+              </button>
+            </Link>
+            <Link to="/shop?category=woman">
+              <button
+                className={`btn btn-outline-secondary ${selectedCategory === 'woman' ? 'active' : ''}`}
+                onClick={() => handleCategoryChange('woman')}
+              >
+                Woman
+              </button>
+            </Link>
+            <Link to="/shop?category=all"> 
+              <button
+                className={`btn btn-outline-secondary allButton ${selectedCategory === 'all' ? 'active' : ''}`}
+                onClick={() => handleCategoryChange('all')}
+                to="/shop?category=all"
+              >
+                All
+              </button>
+            </Link>
         </div>
       </div>
       <div className="dropdown mx-auto mt-3">

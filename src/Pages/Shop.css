@@ -1,13 +1,23 @@
+body {
+    background-color: #1c4139;
+}
+
 .filterButtons {
-    font-family: 'Playfair Display', serif;
     padding: 30px 10px 0 10px;
 }
 
-.filterButtons .btn {
+.btn {
+    font-family: 'Playfair Display', serif;
     width: 120px;
+    background-color: #edc1b6;
 }
 
-.filterButtons .btn.active {
+.btn:hover {
+    background-color: #1c4139 !important;
+    color: #edc1b6 !important;
+}
+
+.btn.active {
     background-color: #edc1b6;
 }
 
@@ -23,10 +33,6 @@
     padding: 0.5rem 1rem;
     text-decoration: none;
     color: black;
-}
-
-.btn{
-    font-family: 'Playfair Display', serif;   
 }
 
 .allButton {

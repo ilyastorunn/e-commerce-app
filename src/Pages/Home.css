@@ -8,10 +8,6 @@
     margin-top: 0;
 }
 
-.best-sellers {
-    margin: 50px 0 0 32px;
-}
-
 a {
     text-decoration: none;
     color: #edc1b6;
@@ -21,6 +17,21 @@ a:hover {
     text-decoration: none;
 }
 
-p {
-    margin-top: 10px;
+.categoryLinks {
+    margin-top: 20px;
+}
+
+.categoryLinks p {
+    margin-left: 13px;
+    font-size: large;
+}
+
+.categoryLinks button {
+    margin: 0 5px 10px 13px;
+    background-color: #edc1b6;
+}
+
+.categoryLinks button:hover {
+    background-color: #1c4139 !important;
+    color: #edc1b6 !important;
 }

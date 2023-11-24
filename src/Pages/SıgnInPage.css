@@ -1,3 +1,7 @@
+body {
+    color: white;
+}
+
 .signInPage {
     padding-top: 20px;
 }
@@ -12,13 +16,16 @@ form {
     text-align: center;
 }
 
+#emailHelp {
+    color: white;
+}
+
 button {
     text-align: center;
 }
 
 .submit-button {
     color: white !important;
-    background-color: #1c4139;
     display: block;
     margin-top: 10px;
     margin-left: auto;
