@@ -22,12 +22,23 @@ export default function Home() {
         navigate(`/product/${productId}`);
     }
 
+    const customDotsStyle = {
+        bottom: "10px",
+        display: "flex",
+        justifyContent: "center",
+    };
+
     const sliderSettings = {
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        appendDots: (dots) => (
+            <div style={customDotsStyle}>
+                <ul style={{ margin: 0 }}> {dots} </ul>
+            </div>
+        ),
     };
 
     return (
@@ -35,13 +46,13 @@ export default function Home() {
         <div className="home container-fluid img-container">
             <Slider {...sliderSettings}>
                 <div>
-                    <img src={homePic1} className="img-fluid" alt="Slide Picture 1" />
+                    <img src={homePic1} className="img-fluid slider-image" alt="Slide Picture 1" />
                 </div>
                 <div>
-                    <img src={homePic2} className="img-fluid" alt="Slide Picture 2" />
+                    <img src={homePic2} className="img-fluid slider-image" alt="Slide Picture 2" />
                 </div>
                 <div>
-                    <img src={homePic3} className="img-fluid" alt="Slide Picture 3" />
+                    <img src={homePic3} className="img-fluid slider-image" alt="Slide Picture 3" />
                 </div>
             </Slider>
         </div>

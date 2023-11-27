@@ -8,13 +8,11 @@ export default function Footer() {
             <div className="container my-5">
                 <footer
                     className="text-center text-lg-start text-white"
-                    // style={{ backgroundColor: "#1c2331" }}
                 >
                     <section
                         className="d-flex justify-content-between p-4"
-                        // style={{ backgroundColor: "#6351ce" }}
                     >
-                        <div className="me-5">
+                        <div className="my-5">
                             <span>Get connected with me on social networks:</span>
                         </div>
                         <div>

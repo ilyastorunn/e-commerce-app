@@ -25,7 +25,7 @@ button {
 }
 
 .submit-button {
-    color: white !important;
+
     display: block;
     margin-top: 10px;
     margin-left: auto;
@@ -60,6 +60,7 @@ button {
     margin-top: 20px;
     border-radius: 5px;
     padding: 5px 10px;
+    background-color: #edc1b6;
 }
 
 .logo {
@@ -75,10 +76,20 @@ input:hover {
 }
 
 .signUpButton {
+    background-color: #edc1b6;
     margin-left: 10px;
     border-radius: 5px;
 }
 
+.signUpButton:hover {
+    background-color: #1c4139 !important;
+}
+
 .signUpLink {
-    color: #1c4139 !important;
+    color: #1c4139;
+}
+
+.signUpLink:hover {
+    color: #edc1b6;
+    background-color: #1c4139;
 }

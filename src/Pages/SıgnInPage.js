@@ -28,7 +28,7 @@ const SıgnInPage = () => {
                 </div>
                 <div className="signUp">
                     <p>
-                        You don't have account:
+                        You don't have account?
                         <button type="button" className="signUpButton">
                             <Link className="signUpLink" to="/signup">
                                 Sign Up

@@ -82,27 +82,21 @@ const Shop = () => {
             </Link>
         </div>
       </div>
-      <div className="dropdown mx-auto mt-3">
+      <div className="dropdown">
         <button
-          className="btn dropdown-toggle"
+          className="btn btn-secondary dropdown-toggle"
           type="button"
+          id="dropdownMenuButton"
           data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
         >
-          Sort By Price
-          <span className="caret"></span>
+          Sort By
         </button>
-        <ul className="dropdown-menu">
-          <li>
-            <a className="dropdown-links" href="#">
-              Low to High
-            </a>
-          </li>
-          <li>
-            <a className="dropdown-links" href="#">
-              High to Low
-            </a>
-          </li>
-        </ul>
+        <div className="dropdown-menu" aria-aria-labelledby="dropdownMenuButton">
+          <a className="dropdown-item" href="#">High to Low</a>
+          <a className="dropdown-item" href="#">Low to High</a>
+        </div>
       </div>
       <div className="products row mt-3">
         {filteredProducts.map((item) => (

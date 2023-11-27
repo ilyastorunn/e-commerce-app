@@ -17,22 +17,23 @@ body {
     color: #edc1b6 !important;
 }
 
-.btn.active {
-    background-color: #edc1b6;
-}
-
 .dropdown {
+    margin-top: 10px;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
 }
 
-.dropdown-links {
-    display: block;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    color: black;
+.dropdown-menu {
+    position: absolute;
+    background-color: #edc1b6;
+    top: 100%;
+    left: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #1c4139 !important;
+    color: #edc1b6 !important;
 }
 
 .allButton {
