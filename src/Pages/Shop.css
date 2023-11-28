@@ -17,7 +17,7 @@ body {
     color: #edc1b6 !important;
 }
 
-.dropdown {
+.dropdownButton {
     margin-top: 10px;
     display: flex !important;
     align-items: center !important;

@@ -82,7 +82,7 @@ const Shop = () => {
             </Link>
         </div>
       </div>
-      <div className="dropdown">
+      <div className="dropdownButton">
         <button
           className="btn btn-secondary dropdown-toggle"
           type="button"
