@@ -1,67 +1,75 @@
+.line {
+  border: 5px solid #1c4139;
+}
+
 .footer {
-    font-family: 'Playfair Display', serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-top: 3px solid #edc1b6;
-    padding-top: 10px;
-    background-color: #1c4139;
-    height: 100%;
+  font-family: "Inria Serif", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 3px solid #edc1b6;
+  padding-top: 10px;
+  background-color: #e9bbb1;
+  height: 100%;
 }
 
 .my-5 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  flex-direction: column;
+  text-align: center;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 57px;
 }
 
 span {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
 }
 
 footer a:hover {
-    color: #edc1b6;
-    border: none;
-    background-color: transparent;
+  color: #1c4139 !important;
 }
 
 .footer span {
-    color: white;
-    font-size: large;
-    margin: 10px 0 0 15px;
-    font-style: italic;
+  color: #1c4139;
+  margin: 10px 0 0 15px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.footer footer {
-    background-color: #1c4139;
-}
+/* .footer footer {
+  background-color: #1c4139;
+} */
 
 .footer a:hover:not(.active) {
-    border: 5px solid #edc1b6;
-    background-color: #edc1b6;
+  border: 5px solid #edc1b6;
+  background-color: #edc1b6;
 }
 
 @media (min-width: 768px) {
-    .footer {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .footer span {
-        margin: 0;
-    }
+  .footer span {
+    margin: 0;
+  }
 
-    .footer div {
-        display: flex;
-        align-items: center;
-    }
+  .footer div {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -19,7 +19,7 @@ export default function Header() {
                         className="cart-logo"
                         stroke="currentColor"
                         fill="currentColor"
-                        stroke-width="0"
+                        strokeWidth="0"
                         viewBox="0 0 512 512"
                         height="25" width="25"
                         xmlns="http://www.w3.org/2000/svg"
