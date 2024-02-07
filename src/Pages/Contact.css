@@ -1,9 +1,11 @@
 .contact {
-  margin: 0;
-  display: inline-flex;
+  margin-top: 43px;
+  font-family: "Inria Serif";
+  /* margin: 0; */
+  display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 43px;
+  align-items: flex-start;
+  gap: 66px;
 }
 
 .contactLabel {
@@ -14,12 +16,11 @@
 }
 
 .contactLabel label {
-  font-family: "Inria Serif";
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 0;
+  margin-bottom: 22px;
 }
 
 .contactLabel input {
@@ -34,14 +35,20 @@
   color: #1c4139;
 }
 
+.form-control {
+  width: 280px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fff;
+}
+
 .submitButton {
-    background-color: #1c4139;
-    color: #e9bbb1 !important;
-    margin-top: 66px;
-    margin-bottom: 52px;
+  background-color: #1c4139;
+  color: #e9bbb1 !important;
+  margin-top: 66px;
+  margin-bottom: 52px;
 }
 
 .submitButton:hover {
-    background-color: #e9bbb1;
-    color: #1c4139 !important;
+  color: #e9bbb1 !important;
 }

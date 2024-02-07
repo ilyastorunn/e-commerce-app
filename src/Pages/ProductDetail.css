@@ -1,60 +1,123 @@
 .productDetailContainer {
-    font-family: 'Playfair Display', serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
+  font-family: "Inria Serif";
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 115px;
+  margin-top: 51px;
 }
-  
+
 .mainProduct {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    margin-bottom: 30px;
+  /* width: 100%;
+  margin-bottom: 30px; */
+  display: flex;
+  align-items: flex-start;
+  gap: 159px;
 }
-  
-.mainProduct img {
-    width: 50%;
-    margin-right: 20px;
+
+.productDetails {
+  /* display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 39px;
+}
+
+#title {
+  color: #1c4139;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#price {
+  color: #1c4139;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#description {
+  color: #1c4139;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .size {
-    margin-top: 5px;
+  color: #1c4139;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .sizeButton {
-    margin-top: 10px;
+  margin-top: 15px;
+  width: 270px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.sizeButton option {
+  color: #1c4139;
 }
 
 .cartButton {
-    margin-top: 20px;
-    border-radius: 5px;
-    color: #1c4139;
+  display: flex;
+  padding: 1px 96px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #fff;
+  color: #1c4139;
+  border: none;
 }
-  
-.productDetails {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    color: black;
+
+.mainProduct img {
+  width: 265px;
+  height: 397px;
 }
-  
+
 .otherProducts {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-size: small;
+  /* width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: small; */
+  display: flex;
+  align-items: flex-start;
+  gap: 131px;
 }
-  
+
 .otherProduct {
-    width: calc(33.333% - 20px);
-    margin-bottom: 20px;
+  /* width: calc(33.333% - 20px);
+  margin-bottom: 20px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
 }
-  
+
 .otherProduct img {
-    width: 100%;
+  /* width: 100%; */
+  width: 230px;
+  height: 345px;
 }
-  
+
+.otherProduct h5 {
+  color: #1c4139;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
