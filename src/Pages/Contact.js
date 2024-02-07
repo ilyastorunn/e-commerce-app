@@ -20,7 +20,6 @@ const Contact = () => {
 
   return (
     <div className="contact container">
-      <div className="contactLine"></div>
       <form onSubmit={handleSubmit}>
         <div className="mb-3 contactLabel">
           <label htmlFor="name" className="form-label">

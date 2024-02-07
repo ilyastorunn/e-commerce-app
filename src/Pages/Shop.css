@@ -1,53 +1,130 @@
 body {
-    background-color: #1c4139;
+  background-color: #1c4139;
+}
+
+#shopBody {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+#filterSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
 }
 
 .filterButtons {
-    padding: 30px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
+  margin-top: 18px;
+}
+
+#genderButtons {
+  display: flex;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+#genderButtons button {
+  display: flex;
+  padding: 2px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #1c4139;
+  color: #e9bbb1;
 }
 
 .btn {
-    font-family: 'Playfair Display', serif;
-    width: 120px;
-    background-color: #edc1b6;
+  font-family: "Playfair Display", serif;
+  width: 120px;
+  background-color: #edc1b6;
 }
 
 .btn:hover {
-    background-color: #1c4139 !important;
-    color: #edc1b6 !important;
+  background-color: #1c4139 !important;
+  color: #edc1b6 !important;
 }
 
 .dropdownButton {
-    margin-top: 10px;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+  margin-top: 21px;
+  margin-bottom: 20px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+#dropdownMenuButton {
+  display: flex;
+  padding: 3px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #1c4139;
+  color: #e9bbb1;
 }
 
 .dropdown-menu {
-    position: absolute;
-    background-color: #edc1b6;
-    top: 100%;
-    left: 0;
+  position: absolute;
+  background-color: #1c4139;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-item {
+  color: #e9bbb1;
 }
 
 .dropdown-item:hover {
-    background-color: #1c4139 !important;
-    color: #edc1b6 !important;
+  background-color: #1c4139 !important;
+  color: #edc1b6 !important;
 }
 
 .allButton {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
 
 a {
-    font-family: 'Playfair Display', serif;
-    color: white;
+  font-family: "Playfair Display", serif;
+  color: white;
 }
 
 .products {
-    padding: 15px 0 0 15px;
-    background-color: #1c4139;
-    margin-bottom: 15px;
+  padding: 15px 0 0 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+  margin-bottom: 152px;
+}
+
+.bestSellersPics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.bestSellersPics img {
+  width: 360px;
+  height: 540px;
+}
+
+.bestSellersPics p {
+  color: #1c4139;
+  font-family: "Inria Serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

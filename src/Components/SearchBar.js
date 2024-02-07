@@ -12,15 +12,15 @@ export default function SearchBar({ onSearch }) {
     };
 
     return (
-        <div className="input-group mb-3 search-bar">
+        <div className="input-group search-bar">
             <input
                 type="text"
                 className="form-control"
-                placeholder="Search Products"
+                // placeholder="Search"
                 value={searchTerm}
                 onChange={handleChange}
             />
-            <button className="btn btn-outline-secondary" type="button">
+            <button id="searchButton" type="button">
                 Search
             </button>
         </div>
