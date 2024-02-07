@@ -24,7 +24,7 @@ const SignUpPage = () => {
                 </div>
                 <button type="submit" className="submit-button btn">Sign Up</button>
                 <div className="google">
-                    <button type="button" className="googleButton">
+                    <button type="button" className="googleButton" id="googleButton">
                         Sign in with Google:
                         <i className="fa-brands fa-google logo"></i>
                     </button>

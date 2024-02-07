@@ -22,7 +22,7 @@ const Contact = () => {
     <div className="contact container">
       <div className="contactLine"></div>
       <form onSubmit={handleSubmit}>
-        <div className="mb-3">
+        <div className="mb-3 contactLabel">
           <label htmlFor="name" className="form-label">
             Name:
           </label>
@@ -36,7 +36,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="mb-3">
+        <div className="mb-3 contactLabel">
           <label htmlFor="email" className="form-label">
             Email:
           </label>
@@ -50,7 +50,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="mb-3">
+        <div className="mb-3 contactLabel">
           <label htmlFor="message" className="form-label">
             Message:
           </label>

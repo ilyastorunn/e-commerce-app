@@ -1,3 +1,7 @@
-.googleButton {
+#googleButton {
     margin-bottom: 20px;
+}
+
+#googleButton:hover {
+    background-color: #e9bbb1 !important;
 }

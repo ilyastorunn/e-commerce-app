@@ -2,6 +2,11 @@ div {
   background-color: #e9bbb1;
 }
 
+.HeaderLine {
+  border: 3px solid #1c4139;
+  width: 100%;
+}
+
 ul {
   font-family: "Inria Serif", serif;
   background-color: #e9bbb1;

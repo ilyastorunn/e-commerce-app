@@ -1,95 +1,172 @@
-body {
+/* body {
     color: white;
-}
+} */
 
 .signInPage {
-    padding-top: 20px;
+  font-family: "Inria Serif";
+  padding-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+}
+
+#signInBox {
+  margin-bottom: 54px;
 }
 
 form {
-    font-family: 'Playfair Display', serif;
-    padding-left: 10px;
-    padding-right: 10px;
-    overflow: hidden;
-    margin: 0 auto;
-    max-width: 300px;
-    text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.signIn label {
+  font-family: "Inria Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+
+.signIn input {
+  margin: 0;
 }
 
 #emailHelp {
-    color: white;
+  padding-top: 22px;
+  color: #1c4139;
+  text-align: center;
+  font-family: "Inria Serif";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 43px;
 }
 
 button {
-    text-align: center;
+  text-align: center;
 }
 
 .submit-button {
-
-    display: block;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-control {
-    border-color: #edc1b6 !important;
-    border: 2px solid;
+  border-color: #edc1b6 !important;
+  border: 2px solid;
 }
 
 .form-control:focus,
 .fom-check-input:focus {
-    border-color: #edc1b6 !important;
+  border-color: #edc1b6 !important;
 }
 
 .form-check-input:checked {
-    border-color: #edc1b6 !important;
-    background-color: #edc1b6 !important;
+  border-color: #edc1b6 !important;
+  background-color: #edc1b6 !important;
 }
 
 .form-check {
-    display: inline-block;
-    margin-right: 5px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#signInButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+#signInButtons button {
+  display: flex;
+  width: 160px;
+  padding: 4px 39px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #1c4139;
+  color: #e9bbb1 !important;
 }
 
 .google {
-    padding: 5px 10px;
+  padding: 5px 10px;
 }
 
 .googleButton {
-    margin-top: 20px;
-    border-radius: 5px;
-    padding: 5px 10px;
-    background-color: #edc1b6;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #edc1b6;
+  display: flex;
+  padding: 4px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.googleButton:hover {
+  background-color: #1c4139 !important;
 }
 
 .logo {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 input:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .signUp {
-    margin-top: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 52px;
+}
+
+.signUp p {
+  color: #000;
+  font-family: "Inria Serif";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .signUpButton {
-    background-color: #edc1b6;
-    margin-left: 10px;
-    border-radius: 5px;
+  /* background-color: #1c4139;
+  margin-left: 10px;
+  border-radius: 5px; */
+  color: #e9bbb1 !important;
+  display: flex;
+  padding: 5px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .signUpButton:hover {
-    background-color: #1c4139 !important;
+  background-color: #1c4139 !important;
 }
 
 .signUpLink {
-    color: #1c4139;
+  color: #e9bbb1 !important;
 }
 
-.signUpLink:hover {
-    color: #edc1b6;
-    background-color: #1c4139;
-}
+/* .signUpLink:hover {
+  color: #edc1b6;
+  background-color: #1c4139;
+} */

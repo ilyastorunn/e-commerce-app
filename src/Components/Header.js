@@ -6,6 +6,7 @@ import "./Header.css";
 export default function Header() {
     return (
         <div>
+            
             <ul>
                 <li><a href="https://github.com/ilyastorunn" target="_blank" className="name">FashionHub</a></li>
                 <li><a href="/">Home</a></li>
@@ -29,6 +30,7 @@ export default function Header() {
                         Cart
                 </Link></li>
             </ul>
+            <div className="HeaderLine"></div>
         </div>
     );
 };
